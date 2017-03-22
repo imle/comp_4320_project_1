@@ -15,7 +15,7 @@ import java.util.Map;
 class UDPClient extends UDPBase {
 	public static void main(String args[]) throws Exception {
 		if (args.length != 2) {
-			throw new IllegalArgumentException("UDPClient takes exactly 2 arguments.");
+			throw new IllegalArgumentException("UDPClient takes exactly 2 arguments. (hostname probability)");
 		}
 
 		String hostname = args[0];
